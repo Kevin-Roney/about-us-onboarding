@@ -31,3 +31,5 @@ Additional considerations:
 5.) index.html template - elements in div - H4, Ptag, Ulist, H6
 6.) app.js - grab DOM elements, create event listeners
 7.) create and implement function
+
+![Wireframe for about us app](/assets/wireframe.jpg "wireframe for about us app")
