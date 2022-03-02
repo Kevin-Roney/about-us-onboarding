@@ -24,12 +24,13 @@ Additional considerations:
   - What needs to live in a persistence layer?
 - Is there some state we need to initialize?
 - Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
-1.) data.js file - array of people - names, pronouns, favorite place, hobbies
-2.) index.html template - header & footer, body, main
-3.) index.html template - header text, main elements, select, div
-4.) index.html template - options / select with values
-5.) index.html template - elements in div - H4, Ptag, Ulist, H6
-6.) app.js - grab DOM elements, create event listeners
-7.) create and implement function
+
+1. data.js file - array of people - names, pronouns, favorite place, hobbies
+2. index.html template - header & footer, body, main
+3. index.html template - header text, main elements, select, div
+4. index.html template - options / select with values
+5. index.html template - elements in div - H4, Ptag, Ulist, H6
+6. app.js - grab DOM elements, create event listeners
+7. create and implement function
 
 ![Wireframe for about us app](/assets/wireframe.jpg "wireframe for about us app")
