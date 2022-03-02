@@ -8,8 +8,9 @@ export const people = [
     },
     {
         id: 2,
-        name: 'Dorothy',
-        pronouns: 'she/her',
-        favorite_place: 'couch',
-        hobbies: ['knitting', 'sewing', 'coding'],
-    }
+        name: 'Kevin',
+        pronouns: 'he/him',
+        favorite_place: 'kitchen',
+        hobbies: ['cooking', 'music', 'video games'],
+    },
+];
