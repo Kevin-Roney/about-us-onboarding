@@ -1,4 +1,4 @@
-## The Golden Rule:
+## The Golden Rule
 
 🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
 
@@ -16,11 +16,18 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 
 Additional considerations:
 
--   Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated?
--   Consider your data model.
-    -   What kinds of objects (i.e., Dogs, Friends, Todos, etc) will you need?
-    -   What are the key/value pairs?
-    -   What arrays might you need?
-    -   What needs to live in a persistence layer?
--   Is there some state we need to initialize?
--   Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
+- Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated?
+- Consider your data model.
+  - What kinds of objects (i.e., Dogs, Friends, Todos, etc) will you need?
+  - What are the key/value pairs?
+  - What arrays might you need?
+  - What needs to live in a persistence layer?
+- Is there some state we need to initialize?
+- Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
+1.) data.js file - array of people - names, pronouns, favorite place, hobbies
+2.) index.html template - header & footer, body, main
+3.) index.html template - header text, main elements, select, div
+4.) index.html template - options / select with values
+5.) index.html template - elements in div - H4, Ptag, Ulist, H6
+6.) app.js - grab DOM elements, create event listeners
+7.) create and implement function
