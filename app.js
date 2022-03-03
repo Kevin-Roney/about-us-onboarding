@@ -1,7 +1,7 @@
 // import functions
 import { people } from './data.js';
 // grab DOM elements
-const selectElement = document.querySelector('.select');
+const selectElement = document.querySelector('.selector');
 const divContainer = document.querySelector('.contain');
 const name = document.getElementById('name');
 const pronouns = document.querySelector('.pronouns');
@@ -11,6 +11,7 @@ const hobbies = document.querySelector('.hobbies');
 
 selectElement.addEventListener('change', (event) => {
     const selected = event.target.value;
+    divContainer.classList.remove('hidden');
     hobbies.innerHTML = '';
     divContainer.classList.remove('Jeff', 'Kevin');
 
@@ -22,7 +23,7 @@ selectElement.addEventListener('change', (event) => {
 });
 
 function renderPerson(index) {
-    divContainer.classList.add('${people[index].name}');
+    divContainer.classList.add(`${people[index].name}`);
     name.textContent = 'Name: ' + people[index].name;
     pronouns.textContent = 'Pronouns: ' + people[index].pronouns;
     favPlace.textContent = 'Favorite Place: ' + people[index].favorite_place;
