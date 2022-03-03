@@ -1,25 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-        <link rel="stylesheet" href="./styles/style.css" />
-       
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-        <title>Cool Web</title>
-    </head>
+    <link rel="stylesheet" href="./styles/style.css" />
 
-    <body>
-        <header>
-            <h1>Cool Web Project</h1>
-        </header>
 
-        <main></main>
+    <title>About us group project demo</title>
+</head>
 
-        <footer>&copy; 2021 Aspiring Software Developer</footer>
+<body>
+    <header>
+        <h1>Cool about us project with group</h1>
+    </header>
 
-        <script type="module" src="./app.js"></script>
-    </body>
+    <main>
+        <h2>
+            Select a name to view their Bio page!
+        </h2>
+        <select class="selector" name="name">
+            <option value="one">Jeff</option>
+            <option value="two">Kevin</option>
+        </select>
+        <div class="contain hidden">
+            <h4 class="name" id="name"></h4>
+            <span class="pronouns"></span>
+            <p class="fav-place"></p>
+            <h6>Hobbies:</h6>
+            <ul class="hobbies"></ul>
+        </div>
+
+    </main>
+
+    <footer>&copy; 2021 Aspiring Software Developer</footer>
+
+    <script type="module" src="./app.js"></script>
+</body>
+
 </html>
